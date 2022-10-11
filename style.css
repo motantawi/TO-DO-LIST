@@ -1,0 +1,164 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #352f5b;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  animation: uk-text-shadow-glitch .65s cubic-bezier(.25, .46, .45, .9399999999999999) both infinite;
+  background-image: linear-gradient(to top, #352f5b, rgba(255, 255, 255, 0.19));
+}
+
+@keyframes uk-text-shadow-glitch{
+  0%{text-shadow:none}
+  25%{text-shadow:-2px -2px 0 #f43482,2px 2px 0 #3234ff}
+  50%{text-shadow:2px -2px 0 #f43482,-2px 2px 0 #3234ff}
+  75%{text-shadow:-2px 2px 0 #f43482,2px -2px 0 #3234ff}
+  100%{text-shadow:2px 2px 0 #f43482,-2px -2px 0 #3234ff}}
+
+
+
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 3px solid white;
+  background: rgba(172, 214, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(9, 10, 15, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+}
+
+p {
+  font-size: 22px;
+}
+
+.icon:hover {
+  font-size: 26px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon-star,
+.icon-trash {
+  opacity: 0.4;
+  font-size: 27px;
+}
+
+.icon-star:hover {
+  color: orange;
+  opacity: 1;
+  font-size: 29px;
+}
+
+.icon-trash {
+  margin-right: 10px;
+}
+
+.icon-trash:hover {
+  color: rgb(242, 238, 238);
+  opacity: 1;
+  font-size: 29px;
+}
+
+.icon-angry2 {
+  color: rgb(252, 184, 13);
+  font-size: 24px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 70px;
+  margin-bottom: 34px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+}
+
+button {
+  all: unset;
+}
+
+.icon-upload {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 12px;
+  left: 20px;
+}
+
+.icon-upload:hover {
+  cursor: pointer;
+  font-size: 43px;
+  transition: 0.2s;
+  color: rgb(9, 116, 9);
+}
+
+/* for jsvascript */
+
+.en {
+  display: none;
+}
+
+.icon-heart {
+  color: rgb(246, 16, 16);
+  font-size: 24px;
+}
+
+.finish {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+}
+
+#container {
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+html {
+  scrollbar-color: #2d1d47 #3d4a59;
+
+  scroll-behavior: smooth;
+}
+
+.color {
+  color: orange;
+  opacity: 1;
+}
+
+
+audio{
+  
+  margin-top: 250px;
+  display: block;
+  width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
